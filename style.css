@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e3e3e3;
+}
+
+.card {
+  width: 250px;
+  height: 350px;
+  background-color: #fff;
+  margin: 120px auto;
+  border-radius: 4px;
+}
+
+.card:hover {
+  transform: scale(1.08);
+  transition: 0.5s;
+}
+
+.wrapper {
+  width: 250px;
+  height: 350px;
+  background-color: #fff;
+  z-index: 29;
+  display: none;
+}
+
+.wrapper:hover {
+  display: block;
+}
+
+.icon {
+  position: relative;
+  top: 10px;
+  left: 210px;
+  color: red;
+  z-index: -2;
+}
